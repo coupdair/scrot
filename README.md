@@ -35,6 +35,8 @@ If you are interested in helping scrot, read the [CONTRIBUTING.md](CONTRIBUTING.
 
 ## Building ##
 
+### GNU libraries
+
 scrot requires a few projects and libraries:
 
 - [autoconf](https://www.gnu.org/software/autoconf/autoconf.html) (build time only)
@@ -46,6 +48,15 @@ scrot requires a few projects and libraries:
 - libXcomposite [(can be found in X.Org)](https://gitlab.freedesktop.org/xorg/lib/libxcomposite)
 - libXext [(can be found in X.Org)](https://gitlab.freedesktop.org/xorg/lib/libxext)
 - libxfixes [(can be found in X.Org)](https://gitlab.freedesktop.org/xorg/lib/libxfixes)
+
+#### yum
+
+~~~ { .bash }
+sudo yum install autoconf-archive
+sudo yum install libXcomposite-devel libXext-devel libXfixes-devel
+~~~
+
+### scrot code
 
 From a Unix command line, building is simple:
 ```
