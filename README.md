@@ -52,8 +52,9 @@ scrot requires a few projects and libraries:
 #### yum
 
 ~~~ { .bash }
-sudo yum install autoconf-archive
-sudo yum install libXcomposite-devel libXext-devel libXfixes-devel
+sudo yum install -y autoconf-archive pkg-config
+sudo yum install -y libXcomposite-devel libXext-devel libXfixes-devel
+sudo yum install -y imlib2 imlib2-devel libbsd libbsd-devel
 ~~~
 
 ### scrot code
