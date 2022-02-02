@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 ![Logo](doc/scrot.png)
 
 # scrot (SCReenshOT)
